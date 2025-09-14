@@ -1,13 +1,15 @@
 # Interactive Residue Predictor
 
 A deep learning model for predicting protein-peptide interaction residues using ESM2 and Cross-Attention mechanisms.
+This model has been used for research on the structural prediction of peptide–protein complexes and was presented at the Protein Science Society of Japan.
+Here is a link for the ![conference poster](image/2025_pssj_morishita_poster.pdf).
 
 ## Overview
 
 This project implements a neural network that predicts which residues in a protein-peptide complex are involved in interactions. The model uses ESM2 (Evolutionary Scale Modeling) for sequence encoding and Cross-Attention to capture interactions between protein and peptide sequences.
 
 ## Model Architecture
-
+![Model Aechitecture](image/Interactive_res_predictor_architecture.png)
 - **Encoders**: ESM2-t36-3B-UR50D (2560-dimensional embeddings)
 - **Cross-Attention**: 16 heads, 160-dimensional heads
 - **MLP Networks**: 5-layer ResNet-style architecture with skip connections
