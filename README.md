@@ -2,7 +2,7 @@
 
 A deep learning model for predicting protein-peptide interaction residues using ESM2 and Cross-Attention mechanisms.
 This model has been used for research on the structural prediction of peptide–protein complexes and was presented at the Protein Science Society of Japan.
-Here is a link for the ![conference poster](image/2025_pssj_morishita_poster.pdf).
+Here is a link for the conference poster.  ![conference poster](image/2025_pssj_morishita_poster.pdf).
 
 ## Overview
 
